@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile page</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">
+            <span class="text">Facebook</span>
+        </a>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Notification</a></li>
+                <li><a href="">contact</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <input type="text" placeholder="search">
+            </div>
+            <div class="nav-user online" onclick="settingsMenuToggle()">
+                <img src="./photo.png" alt="lucky">
+            </div>
+        </div>
+        <div class="settings-menu">
+            <div id="dark-btn">
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="./photo.png" alt="">
+                    <div>
+                        <p>Lakshman</p>
+                        <a href="profile.html">see your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="./photo.png" alt="">
+                    <div>
+                        <p>Lakshman</p>
+                        <a href="#">help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </nav>
+    <!--profile page-->
+    <div class="profile-container">
+        <img src="./cover.png" alt="" class="cover-img">
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="./photo.png" alt="" style="height: 100px;" class="pd-img">
+                    <div>
+                        <h3>Lucky</h3>
+                        <p>150 friends - 30 mutual</p>
+                        <img src="./images/member-1.png" alt="">
+                        <img src="./images/member-1.png" alt="">
+                        <img src="./images/member-1.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="pd-right">
+                <button type="button"><img src="./images/friends.png" alt="">friends</button>
+                <button type="button"><img src="./images/message.png" alt="">message</button>
+                <a href="#">read more</a>
+            </div>
+        </div>
+
+        <div class="profile-info">
+            <div class="info-col">
+                <div class="profile-intro">
+                    <h3>Intro</h3>
+                    <p class="intro-text">my name is lakshmana rao iam from vizag iam recently completed my b.tech in cse.</p>
+                    <hr>
+                    <ul>
+                        <li>computer science</li>
+                        <li>web developer</li>
+                        <li>full stack developer</li>
+                    </ul>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>photos</h3>
+                    <a href="">all photos</a>
+                    </div>
+                    <div class="photo-box">
+                        <div>
+                            <img src="./images/photo1.png" alt="">
+                            <img src="./images/photo1.png" alt="">
+                            <img src="./images/photo1.png" alt="">
+                            <img src="./images/photo1.png" alt="">
+                            <img src="./images/photo1.png" alt="">
+                            <img src="./images/photo1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="post-col">
+                <div class="right-post-container">
+                    <div class="user-profile">
+                        <img src="./lucky.jpg" alt="">
+                        <div>
+                            <p>Lakshman</p>
+                            <small>public</small>
+                        </div>
+                    </div>
+                    <div class="post-input-container">
+                        <textarea name="" id="" cols="30" rows="3" placeholder="whats an mind your luck"></textarea>
+                        <div class="addpost-link">
+                            <a href="#">live video</a>
+                            <a href="#">photo video</a>
+                            <a href="#">filing activity</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="user-profile">
+                        <img src="./photo.png" alt="">
+                        <div>
+                            <p>Lakshman</p>
+                            <small>Nov-13-2023</small>
+                        </div>
+                    </div>
+                    <p class="post-text">my name is <span>lakshmanarao</span> iam from vizg i have strong knowlegder of front-end and back-end techknowledg <a href="#">lucky@gmail.com</a> <a href="#">lakshman</a></p>
+                    <img src="./images/feed-image-1.png" alt="" class="post-logo">
+    
+                </div>
+                <div class="post-container">
+                    <div class="user-profile">
+                        <img src="./photo.png" alt="">
+                        <div>
+                            <p>Lakshman</p>
+                            <small>Nov-13-2023</small>
+                        </div>
+                    </div>
+                    <p class="post-text">my name is <span>lakshmanarao</span> iam from vizg i have strong knowlegder of front-end and back-end techknowledg <a href="#">lucky@gmail.com</a> <a href="#">lakshman</a></p>
+                    <img src="./images/feed-image-2.png" alt="" class="post-logo">
+    
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+    
+    <!--footer-->
+    <div class="footer">
+        <p>copyright 2023-lucky@gmail.com</p>
+    </div>
+  <script src="./index.js"></script>  
+</body>
+</html>
